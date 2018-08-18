@@ -5,9 +5,9 @@
  * file that was distributed with this source code. 
  */
 Yii::import('common.modules.plans.components.SubscriptionFlashTrait');
+Yii::import('common.modules.plans.actions.ApiSubscribeAction');
+Yii::import('common.modules.plans.actions.ApiUnsubscribeAction');
 Yii::import("plans.controllers.SubscriptionControllerTrait");
-Yii::import('plans.actions.ApiSubscribeAction');
-Yii::import('plans.actions.ApiUnsubscribeAction');
 /**
  * Description of SubscriptionController
  *
