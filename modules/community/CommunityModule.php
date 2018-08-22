@@ -74,6 +74,7 @@ class CommunityModule extends SModule
         $this->defaultController = $this->entryController;
 
         $this->registerScripts();
+        $this->registerFormCssFile();
         $this->registerPagerCssFile();
         $this->registerMaterialIcons();
         
