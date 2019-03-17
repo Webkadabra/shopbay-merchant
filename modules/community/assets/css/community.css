@@ -907,7 +907,6 @@ body.community #tutorial_list .list-box a {
     }
     body.community .header-container .sitelogo {
         width: auto;
-        margin: 10px 10px 10px 0px;
         position: relative;
     }
     body.community .header-container .sitelogo .subscript {

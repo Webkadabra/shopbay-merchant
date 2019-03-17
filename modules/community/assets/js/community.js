@@ -1,7 +1,7 @@
 $(window).scroll(function () {
     var scrollTop = $(window).scrollTop();
     if(scrollTop>50){
-        $('.header-container').css({'background':'white'});
+        $('.header-container').css({'background':'white','height':'50px'});
     }
     else{
         $('.header-container').css({'background':'none'});
